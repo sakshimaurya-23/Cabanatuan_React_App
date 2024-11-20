@@ -1,0 +1,33 @@
+@use '@carbon/react';
+
+.keys {
+    .app {
+        font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+        margin: 100px;
+    }
+    .submit-button {
+        position:fixed;
+        bottom: 24px;
+        right: 100px;
+        width: 120px;
+      }
+    h1 {
+    font-weight: bold;
+    font-size: 28px;
+    }
+    p.text-sm {
+    font-size: 10px;
+    line-height: 2.4;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        position:fixed;
+        bottom: 0px;
+        width: 100%;
+      }
+    .cds--form-item {
+      width: 60%;
+    }
+}

@@ -1,0 +1,3 @@
+Table,Description  
+merged_tickets_stations,"""This table contains details on ticket information and related pump station data. Use this table for queries related to ticket statuses, account IDs, ticket creation details, pump station monitoring, control status, and additional attributes of each pump station."""  
+updated_pressure,"""This table captures data related to pressure monitoring points for pump stations. Use this table for queries about monitoring points, zone information, coordinates, date and time of monitoring, and pump station or data logger type."""

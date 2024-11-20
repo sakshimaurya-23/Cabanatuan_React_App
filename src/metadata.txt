@@ -1,0 +1,28 @@
+Question:
+Across all pump stations, what is the distribution of control statuses (e.g., ON, OFF)?
+
+SQL Query:
+WITH ControlStatusDistribution AS (
+    SELECT
+        Control,
+        COUNT(*) AS Count
+    FROM
+        merged_tickets_stations
+    GROUP BY
+        Control
+)
+SELECT
+    Control,
+    Count,
+    ROUND((CAST(Count AS REAL) / (SELECT SUM(Count) FROM ControlStatusDistribution)) * 100, 2) AS Percentage
+FROM
+    ControlStatusDistribution
+ORDER BY
+    Percentage DESC;
+
+Table_Info:
+
+The tables used are: "merged_tickets_stations". The columns used from this table are: "Control".
+
+Response:
+The distribution of control statuses across all pump stations is as follows: 'OFF' accounts for approximately 46.6%, '4OFF' accounts for about 39.2%, '4ON' makes up around 8.28%, and 'ON' constitutes roughly 5.92%.

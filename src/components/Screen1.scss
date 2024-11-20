@@ -1,0 +1,60 @@
+@use '@carbon/react';
+
+.screen1 {
+
+  .app {
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+    margin: 100px;
+  }
+
+  .cds--file--label {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .cds--label-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .cds--file-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .submit-button {
+    position:fixed;
+    bottom: 24px;
+    right: 100px;
+    width: 120px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  p.text-sm {
+    font-size: 10px;
+    line-height: 2.4;
+  }
+
+  .sheet {
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr; 
+  }
+  svg {
+    color: #1f7a1f;
+  }
+  .cds--btn--tertiary {
+    position:fixed;
+    bottom: 24px;
+  }
+}

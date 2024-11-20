@@ -1,0 +1,57 @@
+@use '@carbon/react';
+
+.screen0 {
+  .app {
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
+  .content-container {
+    display: flex; /* Use flexbox to align items */
+    height: 100vh; /* Full viewport height */
+    background-color: #e3dee0;
+  }
+  .cds--btn--primary{
+    width: 120px;
+  }
+  .text-container {
+    background-color: #e3dee0;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    flex-direction: column;
+  }
+  a {
+    width: 120px;
+  }
+  .video-container {
+    background-color: #e3dee0;
+    flex: 1; /* Take up remaining space */
+    position: relative; /* Relative positioning for absolutely positioned video */
+    height: 100%; /* Full height of the container */
+    width: 100vh;
+  }
+
+  video {
+    position: absolute; /* Absolute positioning for video */
+    top: 0;
+    right: 0;
+    width: 95%; /* Full width of the container */
+    height: 95%; /* Full height of the container */
+  }
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  p.text-sm {
+    font-size: 10px;
+    line-height: 2.4;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+}

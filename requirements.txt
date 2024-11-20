@@ -1,0 +1,17 @@
+ibm-watsonx-ai==0.1.8
+pydantic==2.7.4
+langchain==0.1.20
+langchain-ibm==0.0.1
+langchain-community==0.0.38
+ibm-generative-ai==3.0.0
+python-dotenv==1.0.1
+openpyxl==3.1.5
+langchain-experimental==0.0.58
+ibm_watson_machine_learning==1.0.359
+matplotlib==3.9.0
+plotly==5.23.0
+kaleido==0.2.1
+nbformat==5.10.4
+flask==3.0.3
+pandas==2.1.4
+flask_cors==4.0.1
